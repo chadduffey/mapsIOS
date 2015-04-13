@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C986D669-09B7-4F18-BB4D-ECADBBD2AF6B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Maps</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66928B78540799503AB92CB27D8AD8D3236F9EBE</key>
+		<string>https://github.com/chadduffey/mapsIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Maps.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66928B78540799503AB92CB27D8AD8D3236F9EBE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chadduffey/mapsIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66928B78540799503AB92CB27D8AD8D3236F9EBE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66928B78540799503AB92CB27D8AD8D3236F9EBE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mapsIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
