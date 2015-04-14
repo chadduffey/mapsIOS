@@ -47,7 +47,43 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         
         
+        //set up the long press recogniser
+        
+        var uiLpgr = UILongPressGestureRecognizer(target: self, action: "action:")
+        
+        uiLpgr.minimumPressDuration = 2
+        
+        map.addGestureRecognizer(uiLpgr)
+        
+        
     }
+    
+    //funciton to handle our gestures
+    func action(gestureRecognizer:UIGestureRecognizer) {
+    
+        //this is relative to the map
+        var touchPoint = gestureRecognizer.locationInView(self.map)
+        
+        //we need to get it converted to a coordinate
+        var mapCoordinate: CLLocationCoordinate2D = map.convertPoint(touchPoint, toCoordinateFromView: self.map)
+        
+        var annotation = MKPointAnnotation()
+        
+        annotation.coordinate = mapCoordinate
+        
+        annotation.title = "Home Town!"
+        
+        annotation.subtitle = "Visiting in April"
+        
+        map.addAnnotation(annotation)
+        
+        
+    }
+        
+        
+        
+        
+        
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
